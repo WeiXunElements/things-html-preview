@@ -1,18 +1,18 @@
 {
-  "name": "things-html-previewer",
-  "version": "1.0.7",
+  "name": "things-html-preview",
+  "version": "0.0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Hatio Lab. <heartyoh@hatiolab.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "An element providing a html previewer.",
   "keywords": [
     "web-component",
     "polymer",
     "seed"
   ],
-  "main": "things-html-previewer.html",
+  "main": "things-html-preview.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/ThingsElements/seed-element/",
   "ignore": [
     "/.*",
     "/test/"
@@ -22,6 +22,9 @@
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "web-component-tester": "^4.0.0"
+    "web-component-tester": "^4.0.0",
+    "iron-demo-helpers": "^1.2.3",
+    "paper-input": "^1.1.11"
+
   }
 }
