@@ -1,7 +1,13 @@
 # things-html-preview
 
-An element providing a starting point for your own reusable Polymer elements.
+things-html-preview. html 미리보기
 
+  Example:
+    <things-html-preview
+      srcdoc="<marquee>Things HTML Preview</marquee>"
+      height="600"
+      width="450">
+    </things-html-preview>
 
 ## Dependencies
 
@@ -21,11 +27,11 @@ If you wish to work on your element in isolation, we recommend that you use
 [Polyserve](https://github.com/PolymerLabs/polyserve) to keep your element's
 bower dependencies in line. You can install it via:
 
-    npm install -g polyserve
+    npm install -g polymer-cli
 
 And you can run it via:
 
-    polyserve
+    polymer serve
 
 Once running, you can preview your element at
 `http://localhost:8080/components/things-html-preview/`, where `things-html-preview` is the name of the directory containing it.
