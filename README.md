@@ -1,13 +1,16 @@
 # things-html-preview
 
-things-html-preview. html 미리보기
+## things-html-preview. html 미리보기
+
 
   Example:
+```html
     <things-html-preview
       srcdoc="<marquee>Things HTML Preview</marquee>"
       height="600"
       width="450">
     </things-html-preview>
+```
 
 ## Dependencies
 
