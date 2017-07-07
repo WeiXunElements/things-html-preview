@@ -1,6 +1,6 @@
 {
   "name": "things-html-preview",
-  "version": "v2.0.0",
+  "version": "2.2.0",
   "authors": [
     "Hatio Lab. <heartyoh@hatiolab.com>"
   ],
@@ -11,8 +11,8 @@
     "seed"
   ],
   "main": "things-html-preview.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/ThingsElements/seed-element/",
+  "license": "http://license.hatiolab.com/EULA",
+  "homepage": "http://elements.hatiolab.com/",
   "ignore": [
     "/.*",
     "/test/"
@@ -25,6 +25,5 @@
     "web-component-tester": "^4.0.0",
     "iron-demo-helpers": "^1.2.3",
     "paper-input": "^1.1.11"
-
   }
 }
