@@ -1,8 +1,8 @@
 <!--
 @license
-Copyright © HatioLab Inc. All rights reserved.
+Copyright © 2015-2021 Shenzhen Weixun All rights reserved.
 -->
-<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer/polymer.html" />
 
 <!--
 ## things-html-preview. html 미리보기
@@ -25,13 +25,12 @@ Copyright © HatioLab Inc. All rights reserved.
         display: block;
       }
     </style>
-    <iframe name="result" srcdoc="[[srcdoc]]" height ="[[height]]" width="[[width]]"></iframe>
+    <iframe name="result" srcdoc="[[srcdoc]]" height="[[height]]" width="[[width]]"></iframe>
   </template>
   <script>
     Polymer({
       is: 'things-html-preview',
-      properties:{
-
+      properties: {
         /**
          * en-us
          *
@@ -43,11 +42,11 @@ Copyright © HatioLab Inc. All rights reserved.
          ******
          * @type: String
          */
-        srcdoc:{
-          type:String,
-          notify:true
-        }
-      }
+        srcdoc: {
+          type: String,
+          notify: true,
+        },
+      },
     });
   </script>
 </dom-module>
